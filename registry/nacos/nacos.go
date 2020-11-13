@@ -12,10 +12,10 @@ import (
 	"github.com/nacos-group/nacos-sdk-go/clients"
 	"github.com/nacos-group/nacos-sdk-go/common/constant"
 
-	mnet "github.com/asim/nitro/v3/util/net"
+	mnet "github.com/go-iot-platform/go-micro/util/net"
 	"github.com/nacos-group/nacos-sdk-go/clients/naming_client"
 
-	"github.com/asim/nitro/v3/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 type nacosRegistry struct {

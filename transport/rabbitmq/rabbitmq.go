@@ -11,7 +11,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/streadway/amqp"
 
-	"github.com/asim/nitro/v3/transport"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 const (

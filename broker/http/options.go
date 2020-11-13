@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/asim/nitro/v3/broker"
+	"github.com/go-iot-platform/go-micro/broker"
 )
 
 // Handle registers the handler for the given pattern.

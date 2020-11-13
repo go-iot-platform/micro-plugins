@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/asim/nitro/v3/codec"
+	"github.com/go-iot-platform/go-micro/codec"
 )
 
 const seqNotify = math.MaxUint64

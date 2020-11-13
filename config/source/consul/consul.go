@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/consul/api"
-	"github.com/asim/nitro/v3/config/source"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 // Currently a single consul reader

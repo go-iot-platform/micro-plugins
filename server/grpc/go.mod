@@ -1,9 +1,9 @@
-module github.com/asim/nitro-plugins/server/grpc/v3
+module github.com/go-iot-platform/micro-plugins/server/grpc
 
 go 1.15
 
 require (
-	github.com/asim/nitro/v3 v3.3.0
+	github.com/go-iot-platform/go-micro v0.0.0-20201113111737-6edce0effdfa
 	github.com/golang/protobuf v1.4.3
 	golang.org/x/net v0.0.0-20201021035429-f5854403a974
 	google.golang.org/grpc v1.27.0

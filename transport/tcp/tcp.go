@@ -9,11 +9,11 @@ import (
 	"net"
 	"time"
 
-	log "github.com/asim/nitro/v3/logger"
-	"github.com/asim/nitro/v3/transport"
-	maddr "github.com/asim/nitro/v3/util/addr"
-	mnet "github.com/asim/nitro/v3/util/net"
-	mls "github.com/asim/nitro/v3/util/tls"
+	log "github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/transport"
+	maddr "github.com/go-iot-platform/go-micro/util/addr"
+	mnet "github.com/go-iot-platform/go-micro/util/net"
+	mls "github.com/go-iot-platform/go-micro/util/tls"
 )
 
 type tcpTransport struct {

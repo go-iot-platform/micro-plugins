@@ -1,10 +1,10 @@
-module github.com/asim/nitro-plugins/store/mysql/v3
+module github.com/go-iot-platform/micro-plugins/store/mysql
 
 go 1.13
 
 require (
 	github.com/go-sql-driver/mysql v1.5.0
-	github.com/asim/nitro/v3 v3.3.0
+	github.com/go-iot-platform/go-micro v0.0.0-20201113111737-6edce0effdfa
 	github.com/pkg/errors v0.9.1
 )
 

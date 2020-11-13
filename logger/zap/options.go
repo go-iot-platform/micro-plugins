@@ -4,7 +4,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/asim/nitro/v3/logger"
+	"github.com/go-iot-platform/go-micro/logger"
 )
 
 type Options struct {

@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	log "github.com/asim/nitro/v3/logger"
+	log "github.com/go-iot-platform/go-micro/logger"
 )
 
 // Errors ...

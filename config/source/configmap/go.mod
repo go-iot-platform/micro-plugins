@@ -1,9 +1,9 @@
-module github.com/asim/nitro-plugins/config/source/configmap/v3
+module github.com/go-iot-platform/micro-plugins/config/source/configmap
 
 go 1.13
 
 require (
-	github.com/asim/nitro/v3 v3.3.0
+	github.com/go-iot-platform/go-micro v0.0.0-20201113111737-6edce0effdfa
 	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/googleapis/gnostic v0.4.0 // indirect

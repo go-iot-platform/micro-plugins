@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	log "github.com/asim/nitro/v3/logger"
-	"github.com/asim/nitro/v3/registry"
+	log "github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/registry"
 	"github.com/go-zookeeper/zk"
 )
 

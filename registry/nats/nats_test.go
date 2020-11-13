@@ -3,7 +3,7 @@ package nats_test
 import (
 	"testing"
 
-	"github.com/asim/nitro/v3/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 func TestRegister(t *testing.T) {

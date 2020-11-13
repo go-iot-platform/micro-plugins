@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/asim/nitro/v3/config/source"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 func makeMap(kv map[string]interface{}, secretName string) (map[string]interface{}, error) {

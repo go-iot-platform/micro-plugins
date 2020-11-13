@@ -5,10 +5,10 @@ import (
 	"crypto/tls"
 	"net"
 
-	mbroker "github.com/asim/nitro/v3/broker/memory"
-	"github.com/asim/nitro/v3/codec"
-	"github.com/asim/nitro/v3/registry/memory"
-	"github.com/asim/nitro/v3/server"
+	mbroker "github.com/go-iot-platform/go-micro/broker/memory"
+	"github.com/go-iot-platform/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/registry/memory"
+	"github.com/go-iot-platform/go-micro/server"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding"
 )

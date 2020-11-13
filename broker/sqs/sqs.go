@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/asim/nitro/v3/broker"
-	log "github.com/asim/nitro/v3/logger"
+	"github.com/go-iot-platform/go-micro/broker"
+	log "github.com/go-iot-platform/go-micro/logger"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/session"

@@ -13,11 +13,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asim/nitro/v3/logger"
-	"github.com/asim/nitro/v3/registry"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/registry"
 	hash "github.com/mitchellh/hashstructure"
 	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
+	"go.etcd.io/etcd/etcdserver/apirpc/rpctypes"
 	"go.etcd.io/etcd/mvcc/mvccpb"
 	"go.uber.org/zap"
 )

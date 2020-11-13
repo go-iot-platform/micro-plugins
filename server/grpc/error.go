@@ -3,7 +3,7 @@ package grpc
 import (
 	"net/http"
 
-	"github.com/asim/nitro/v3/errors"
+	"github.com/go-iot-platform/go-micro/errors"
 	"google.golang.org/grpc/codes"
 )
 

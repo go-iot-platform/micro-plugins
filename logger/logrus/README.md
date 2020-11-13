@@ -1,6 +1,6 @@
 # logrus
 
-[logrus](https://github.com/sirupsen/logrus) logger implementation for __go-micro__ [meta logger](https://github.com/asim/nitro/tree/master/logger).
+[logrus](https://github.com/sirupsen/logrus) logger implementation for __go-micro__ [meta logger](https://github.com/go-iot-platform/go-micro/tree/master/logger).
 
 ## Usage
 
@@ -8,7 +8,7 @@
 import (
 	"os"
 	"github.com/sirupsen/logrus"
-	"github.com/asim/nitro/v3/logger"
+	"github.com/go-iot-platform/go-micro/logger"
 )
 
 func ExampleWithOutput() {

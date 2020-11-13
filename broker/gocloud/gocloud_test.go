@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asim/nitro/v3/broker"
+	"github.com/go-iot-platform/go-micro/broker"
 )
 
 func TestBroker(t *testing.T) {

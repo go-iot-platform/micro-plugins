@@ -3,10 +3,10 @@ package grpc
 import (
 	"runtime/debug"
 
-	"github.com/asim/nitro/v3/errors"
-	"github.com/asim/nitro/v3/logger"
-	"github.com/asim/nitro/v3/transport"
-	pb "github.com/asim/nitro-plugins/transport/grpc/v3/proto"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/transport"
+	pb "github.com/go-iot-platform/micro-plugins/transport/grpc/proto"
 	"google.golang.org/grpc/peer"
 )
 

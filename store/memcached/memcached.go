@@ -10,8 +10,8 @@ import (
 	"time"
 
 	mc "github.com/bradfitz/gomemcache/memcache"
-	log "github.com/asim/nitro/v3/logger"
-	"github.com/asim/nitro/v3/store"
+	log "github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/store"
 )
 
 type mkv struct {

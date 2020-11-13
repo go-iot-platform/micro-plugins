@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/asim/nitro/v3/store"
+	"github.com/go-iot-platform/go-micro/store"
 )
 
 func getOption(ctx context.Context, key string) string {

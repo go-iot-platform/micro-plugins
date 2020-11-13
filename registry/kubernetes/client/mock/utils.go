@@ -1,8 +1,8 @@
 package mock
 
 import (
-	"github.com/asim/nitro-plugins/registry/kubernetes/v3/client"
-	"github.com/asim/nitro-plugins/registry/kubernetes/v3/client/watch"
+	"github.com/go-iot-platform/micro-plugins/registry/kubernetes/client"
+	"github.com/go-iot-platform/micro-plugins/registry/kubernetes/client/watch"
 )
 
 type mockWatcher struct {

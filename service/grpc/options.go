@@ -3,9 +3,9 @@ package grpc
 import (
 	"crypto/tls"
 
-	"github.com/asim/nitro/v3/service"
-	gc "github.com/asim/nitro-plugins/client/grpc/v3"
-	gs "github.com/asim/nitro-plugins/server/grpc/v3"
+	"github.com/go-iot-platform/go-micro/service"
+	gc "github.com/go-iot-platform/micro-plugins/client/grpc"
+	gs "github.com/go-iot-platform/micro-plugins/server/grpc"
 )
 
 // WithTLS sets the TLS config for the service

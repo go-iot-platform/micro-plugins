@@ -3,8 +3,8 @@ package grpc
 import (
 	"strings"
 
-	"github.com/asim/nitro/v3/codec"
-	"github.com/asim/nitro/v3/codec/bytes"
+	"github.com/go-iot-platform/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/codec/bytes"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding"
 )

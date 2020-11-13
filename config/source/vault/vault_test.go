@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/asim/nitro/v3/config"
-	"github.com/asim/nitro/v3/config/memory"
+	"github.com/go-iot-platform/go-micro/config"
+	"github.com/go-iot-platform/go-micro/config/memory"
 )
 
 func TestVaultMakeMap(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 
 	"github.com/markbates/pkger"
-	"github.com/asim/nitro/v3/config/source"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 type file struct {

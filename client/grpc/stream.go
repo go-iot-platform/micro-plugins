@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/asim/nitro/v3/client"
+	"github.com/go-iot-platform/go-micro/client"
 	"google.golang.org/grpc"
 )
 

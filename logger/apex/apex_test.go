@@ -3,7 +3,7 @@ package apex
 import (
 	"testing"
 
-	log "github.com/asim/nitro/v3/logger"
+	log "github.com/go-iot-platform/go-micro/logger"
 )
 
 var (

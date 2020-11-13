@@ -1,10 +1,10 @@
-module github.com/asim/nitro-plugins/transport/nats/v3
+module github.com/go-iot-platform/micro-plugins/transport/nats
 
 go 1.13
 
 require (
 	github.com/go-log/log v0.2.0
-	github.com/asim/nitro/v3 v3.3.0
+	github.com/go-iot-platform/go-micro v0.0.0-20201113111737-6edce0effdfa
 	github.com/nats-io/nats.go v1.9.2
 )
 

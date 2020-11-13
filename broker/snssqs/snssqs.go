@@ -16,8 +16,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/sns"
 	"github.com/aws/aws-sdk-go/service/sqs"
 	"github.com/aws/aws-sdk-go/service/sts"
-	"github.com/asim/nitro/v3/broker"
-	"github.com/asim/nitro/v3/logger"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/logger"
 )
 
 type sessClientKey struct{}

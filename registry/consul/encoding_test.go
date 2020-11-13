@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/asim/nitro/v3/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 func TestEncodingEndpoints(t *testing.T) {

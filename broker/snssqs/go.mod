@@ -1,9 +1,9 @@
-module github.com/asim/nitro-plugins/broker/snssqs/v3
+module github.com/go-iot-platform/micro-plugins/broker/snssqs
 
 go 1.13
 
 require (
-	github.com/asim/nitro/v3 v3.3.0
+	github.com/go-iot-platform/go-micro v0.0.0-20201113111737-6edce0effdfa
 	github.com/aws/aws-sdk-go v1.28.4
 	golang.org/x/text v0.3.3
 )

@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/asim/nitro/v3/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 func encode(buf []byte) string {

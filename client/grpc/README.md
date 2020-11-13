@@ -1,6 +1,6 @@
 # GRPC Client
 
-The grpc client is a [micro.Client](https://godoc.org/github.com/asim/nitro/client#Client) compatible client.
+The grpc client is a [micro.Client](https://godoc.org/github.com/go-iot-platform/go-micro/client#Client) compatible client.
 
 ## Overview
 
@@ -12,8 +12,8 @@ Specify the client to your micro service
 
 ```go
 import (
-	"github.com/asim/nitro"
-	"github.com/asim/nitro-plugins/client/grpc"
+	"github.com/go-iot-platform/go-micro"
+	"github.com/go-iot-platform/micro-plugins/client/grpc"
 )
 
 func main() {

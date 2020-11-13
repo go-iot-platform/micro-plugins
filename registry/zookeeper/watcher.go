@@ -4,7 +4,7 @@ import (
 	"errors"
 	"path"
 
-	"github.com/asim/nitro/v3/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 	"github.com/go-zookeeper/zk"
 )
 

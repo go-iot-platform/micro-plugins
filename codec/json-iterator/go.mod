@@ -1,9 +1,9 @@
-module github.com/asim/nitro-plugins/codec/json-iterator/v3
+module github.com/go-iot-platform/micro-plugins/codec/json-iterator
 
 go 1.13
 
 require (
-	github.com/asim/nitro/v3 v3.3.0
+	github.com/go-iot-platform/go-micro v0.0.0-20201113111737-6edce0effdfa
 	github.com/golang/protobuf v1.4.2
 	github.com/json-iterator/go v1.1.9
 	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c

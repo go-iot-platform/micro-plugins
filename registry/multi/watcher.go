@@ -3,7 +3,7 @@ package multi
 import (
 	"sync"
 
-	"github.com/asim/nitro/v3/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 type multiWatcher struct {

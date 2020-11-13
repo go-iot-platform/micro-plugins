@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/kr/pretty"
-	"github.com/asim/nitro/v3/store"
+	"github.com/go-iot-platform/go-micro/store"
 )
 
 func TestEtcd(t *testing.T) {

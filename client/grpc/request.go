@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/asim/nitro/v3/client"
-	"github.com/asim/nitro/v3/codec"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/codec"
 )
 
 type grpcRequest struct {

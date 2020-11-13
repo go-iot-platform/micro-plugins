@@ -3,8 +3,8 @@ package grpc
 import (
 	"reflect"
 
-	"github.com/asim/nitro/v3/registry"
-	"github.com/asim/nitro/v3/server"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 type rpcHandler struct {

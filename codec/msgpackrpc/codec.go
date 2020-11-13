@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/asim/nitro/v3/codec"
+	"github.com/go-iot-platform/go-micro/codec"
 	"github.com/tinylib/msgp/msgp"
 )
 

@@ -1,9 +1,9 @@
-module github.com/asim/nitro-plugins/broker/stan/v3
+module github.com/go-iot-platform/micro-plugins/broker/stan
 
 go 1.13
 
 require (
-	github.com/asim/nitro/v3 v3.3.0
+	github.com/go-iot-platform/go-micro v0.0.0-20201113111737-6edce0effdfa
 	github.com/google/uuid v1.1.2
 	github.com/nats-io/nats-streaming-server v0.16.2 // indirect
 	github.com/nats-io/stan.go v0.6.0

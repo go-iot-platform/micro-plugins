@@ -4,7 +4,7 @@ package kubernetes
 import (
 	"fmt"
 
-	"github.com/asim/nitro/v3/router"
+	"github.com/go-iot-platform/go-micro/router"
 )
 
 // NewRouter returns an initialized kubernetes router

@@ -1,9 +1,9 @@
-module github.com/asim/nitro-plugins/codec/msgpackrpc/v3
+module github.com/go-iot-platform/micro-plugins/codec/msgpackrpc
 
 go 1.13
 
 require (
-	github.com/asim/nitro/v3 v3.3.0
+	github.com/go-iot-platform/go-micro v0.0.0-20201113111737-6edce0effdfa
 	github.com/philhofer/fwd v1.0.0 // indirect
 	github.com/tinylib/msgp v1.1.1
 )

@@ -6,7 +6,7 @@ import (
 	"io"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/asim/nitro/v3/codec"
+	"github.com/go-iot-platform/go-micro/codec"
 )
 
 type Codec struct {

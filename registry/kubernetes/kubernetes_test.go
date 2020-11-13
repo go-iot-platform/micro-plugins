@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asim/nitro-plugins/registry/kubernetes/v3/client"
-	"github.com/asim/nitro-plugins/registry/kubernetes/v3/client/mock"
-	log "github.com/asim/nitro/v3/logger"
-	"github.com/asim/nitro/v3/registry"
+	"github.com/go-iot-platform/micro-plugins/registry/kubernetes/client"
+	"github.com/go-iot-platform/micro-plugins/registry/kubernetes/client/mock"
+	log "github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/asim/nitro/v3/auth"
+	"github.com/go-iot-platform/go-micro/auth"
 )
 
 var (

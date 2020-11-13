@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/asim/nitro/v3/transport"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 func expectedPort(t *testing.T, expected string, lsn transport.Listener) {

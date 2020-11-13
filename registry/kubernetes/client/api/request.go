@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/asim/nitro-plugins/registry/kubernetes/v3/client/watch"
+	"github.com/go-iot-platform/micro-plugins/registry/kubernetes/client/watch"
 )
 
 // Request is used to construct a http request for the k8s API.

@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asim/nitro/v3/config/source"
+	"github.com/go-iot-platform/go-micro/config/source"
 	cetcd "go.etcd.io/etcd/clientv3"
 )
 

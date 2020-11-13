@@ -4,7 +4,7 @@ package mdns
 import (
 	"context"
 
-	"github.com/asim/nitro/v3/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 // Domain sets the mdnsDomain

@@ -1,9 +1,9 @@
-module github.com/asim/nitro-plugins/broker/gocloud/v3
+module github.com/go-iot-platform/micro-plugins/broker/gocloud
 
 go 1.13
 
 require (
-	github.com/asim/nitro/v3 v3.3.0
+	github.com/go-iot-platform/go-micro v0.0.0-20201113111737-6edce0effdfa
 	github.com/streadway/amqp v0.0.0-20200108173154-1c71cc93ed71
 	gocloud.dev v0.17.0
 	gocloud.dev/pubsub/rabbitpubsub v0.17.0

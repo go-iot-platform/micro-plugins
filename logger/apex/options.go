@@ -7,7 +7,7 @@ import (
 	"github.com/apex/log/handlers/cli"
 	"github.com/apex/log/handlers/json"
 	"github.com/apex/log/handlers/text"
-	log "github.com/asim/nitro/v3/logger"
+	log "github.com/go-iot-platform/go-micro/logger"
 )
 
 type handlerKey struct{}

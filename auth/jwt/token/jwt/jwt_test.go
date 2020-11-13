@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asim/nitro-plugins/auth/jwt/v3/token"
-	"github.com/asim/nitro/v3/auth"
+	"github.com/go-iot-platform/micro-plugins/auth/jwt/token"
+	"github.com/go-iot-platform/go-micro/auth"
 )
 
 func TestGenerate(t *testing.T) {

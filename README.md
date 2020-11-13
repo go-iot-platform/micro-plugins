@@ -1,4 +1,4 @@
-# Nitro Plugins [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/asim/nitro-plugins?status.svg)](https://godoc.org/github.com/asim/nitro-plugins)
+# Nitro Plugins [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/go-iot-platform/micro-plugins?status.svg)](https://godoc.org/github.com/go-iot-platform/micro-plugins)
 
 Nitro Plugins are third party and external infrastructure plugins for Nitro (formerly Go Micro).
 
@@ -36,9 +36,9 @@ Import and set as options when creating a new service
 
 ```go
 import (
-	"github.com/asim/nitro/v3/service"
-	"github.com/asim/nitro-plugins/service/grpc/v3"
-	"github.com/asim/nitro-plugins/registry/kubernetes/v3"
+	"github.com/go-iot-platform/go-micro/service"
+	"github.com/go-iot-platform/micro-plugins/service/grpc"
+	"github.com/go-iot-platform/micro-plugins/registry/kubernetes"
 )
 
 func main() {

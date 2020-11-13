@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/gomodule/redigo/redis"
-	"github.com/asim/nitro/v3/broker"
-	"github.com/asim/nitro/v3/codec"
-	"github.com/asim/nitro/v3/codec/json"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/codec/json"
 )
 
 // publication is an internal publication for the Redis broker.

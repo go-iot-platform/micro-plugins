@@ -18,7 +18,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/asim/nitro/v3/store"
+	"github.com/go-iot-platform/go-micro/store"
 	"github.com/pkg/errors"
 
 	"github.com/patrickmn/go-cache"

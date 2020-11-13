@@ -1,7 +1,7 @@
 package grpc
 
 import (
-	"github.com/asim/nitro/v3/client"
+	"github.com/go-iot-platform/go-micro/client"
 )
 
 type grpcEvent struct {

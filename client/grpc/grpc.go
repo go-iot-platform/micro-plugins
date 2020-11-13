@@ -11,11 +11,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/asim/nitro/v3/broker"
-	"github.com/asim/nitro/v3/client"
-	raw "github.com/asim/nitro/v3/codec/bytes"
-	"github.com/asim/nitro/v3/errors"
-	"github.com/asim/nitro/v3/metadata"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/client"
+	raw "github.com/go-iot-platform/go-micro/codec/bytes"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/metadata"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

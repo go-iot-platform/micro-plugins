@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asim/nitro/v3/logger"
+	"github.com/go-iot-platform/go-micro/logger"
 	"github.com/rs/zerolog"
 )
 

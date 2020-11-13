@@ -6,7 +6,7 @@ import (
 
 	"github.com/nacos-group/nacos-sdk-go/model"
 
-	nacosMock "github.com/asim/nitro-plugins/registry/nacos/v3/mock"
+	nacosMock "github.com/go-iot-platform/micro-plugins/registry/nacos/mock"
 	"github.com/stretchr/testify/mock"
 
 	"github.com/nacos-group/nacos-sdk-go/vo"
@@ -15,7 +15,7 @@ import (
 
 	"github.com/nacos-group/nacos-sdk-go/clients/naming_client"
 
-	"github.com/asim/nitro/v3/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 func getRegistry(nacosClientMock naming_client.INamingClient) registry.Registry {

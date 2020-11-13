@@ -6,8 +6,8 @@ import (
 
 	b "bytes"
 
-	"github.com/asim/nitro/v3/codec"
-	"github.com/asim/nitro/v3/codec/bytes"
+	"github.com/go-iot-platform/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/codec/bytes"
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/grpc"

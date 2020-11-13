@@ -13,15 +13,15 @@ import (
 	"sync"
 	"time"
 
-	proto "github.com/asim/nitro-plugins/broker/grpc/v3/proto"
-	"github.com/asim/nitro/v3/broker"
-	merr "github.com/asim/nitro/v3/errors"
-	log "github.com/asim/nitro/v3/logger"
-	"github.com/asim/nitro/v3/registry"
-	mreg "github.com/asim/nitro/v3/registry/memory"
-	maddr "github.com/asim/nitro/v3/util/addr"
-	mnet "github.com/asim/nitro/v3/util/net"
-	mls "github.com/asim/nitro/v3/util/tls"
+	"github.com/go-iot-platform/go-micro/broker"
+	merr "github.com/go-iot-platform/go-micro/errors"
+	log "github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/registry"
+	mreg "github.com/go-iot-platform/go-micro/registry/memory"
+	maddr "github.com/go-iot-platform/go-micro/util/addr"
+	mnet "github.com/go-iot-platform/go-micro/util/net"
+	mls "github.com/go-iot-platform/go-micro/util/tls"
+	proto "github.com/go-iot-platform/micro-plugins/broker/grpc/proto"
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
@@ -61,7 +61,7 @@ type grpcEvent struct {
 }
 
 var (
-	registryKey = "github.com/asim/nitro/v3/registry"
+	registryKey = "github.com/go-iot-platform/go-micro/registry"
 
 	broadcastVersion = "ff.grpc.broadcast"
 	registerTTL      = time.Minute

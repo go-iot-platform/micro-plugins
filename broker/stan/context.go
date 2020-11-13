@@ -3,8 +3,8 @@ package stan
 import (
 	"context"
 
-	"github.com/asim/nitro/v3/broker"
-	"github.com/asim/nitro/v3/server"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 // setSubscribeOption returns a function to setup a context with given value

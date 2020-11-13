@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"sync"
 
-	"github.com/asim/nitro-plugins/registry/kubernetes/v3/client"
-	"github.com/asim/nitro-plugins/registry/kubernetes/v3/client/api"
-	"github.com/asim/nitro-plugins/registry/kubernetes/v3/client/watch"
+	"github.com/go-iot-platform/micro-plugins/registry/kubernetes/client"
+	"github.com/go-iot-platform/micro-plugins/registry/kubernetes/client/api"
+	"github.com/go-iot-platform/micro-plugins/registry/kubernetes/client/watch"
 )
 
 // Client ...

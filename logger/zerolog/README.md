@@ -1,6 +1,6 @@
 # Zerolog
 
-[Zerolog](https://github.com/rs/zerolog) logger implementation for __go-micro__ [meta logger](https://github.com/asim/nitro/tree/master/logger).
+[Zerolog](https://github.com/rs/zerolog) logger implementation for __go-micro__ [meta logger](https://github.com/go-iot-platform/go-micro/tree/master/logger).
 
 ## Usage
 

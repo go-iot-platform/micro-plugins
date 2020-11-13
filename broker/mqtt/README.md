@@ -7,7 +7,7 @@ The MQTT broker is useful for IoT based applications
 Drop in import
 
 ```go
-import _ "github.com/asim/nitro-plugins/broker/mqtt"
+import _ "github.com/go-iot-platform/micro-plugins/broker/mqtt"
 ```
 
 Flag on command line
@@ -20,8 +20,8 @@ Alternatively use directly
 
 ```go
 import (
-	"github.com/asim/nitro/v3"
-	"github.com/asim/nitro-plugins/broker/mqtt"
+	"github.com/go-iot-platform/go-micro"
+	"github.com/go-iot-platform/micro-plugins/broker/mqtt"
 )
 
 
@@ -44,7 +44,7 @@ Example
 import (
     "github.com/micro/broker"
     "github.com/micro/broker/codec/noop"
-    "github.com/asim/nitro-plugins/broker/mqtt"
+    "github.com/go-iot-platform/micro-plugins/broker/mqtt"
 )
 
 b := mqtt.NewBroker(

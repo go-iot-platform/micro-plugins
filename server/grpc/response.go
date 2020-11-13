@@ -1,7 +1,7 @@
 package grpc
 
 import (
-	"github.com/asim/nitro/v3/codec"
+	"github.com/go-iot-platform/go-micro/codec"
 )
 
 type rpcResponse struct {

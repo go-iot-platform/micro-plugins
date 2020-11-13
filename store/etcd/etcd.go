@@ -11,7 +11,7 @@ import (
 
 	"go.etcd.io/etcd/clientv3"
 	"go.etcd.io/etcd/clientv3/namespace"
-	"github.com/asim/nitro/v3/store"
+	"github.com/go-iot-platform/go-micro/store"
 	"github.com/pkg/errors"
 )
 

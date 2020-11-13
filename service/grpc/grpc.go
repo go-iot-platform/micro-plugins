@@ -1,11 +1,11 @@
 package grpc
 
 import (
-	"github.com/asim/nitro/v3/client"
-	"github.com/asim/nitro/v3/server"
-	"github.com/asim/nitro/v3/service"
-	gclient "github.com/asim/nitro-plugins/client/grpc/v3"
-	gserver "github.com/asim/nitro-plugins/server/grpc/v3"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/server"
+	"github.com/go-iot-platform/go-micro/service"
+	gclient "github.com/go-iot-platform/micro-plugins/client/grpc"
+	gserver "github.com/go-iot-platform/micro-plugins/server/grpc"
 )
 
 type grpcService struct {

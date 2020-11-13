@@ -1,6 +1,6 @@
 # GRPC Server
 
-The grpc server is a [micro.Server](https://godoc.org/github.com/asim/nitro/server#Server) compatible server.
+The grpc server is a [micro.Server](https://godoc.org/github.com/go-iot-platform/go-micro/server#Server) compatible server.
 
 ## Overview
 
@@ -13,8 +13,8 @@ Specify the server to your micro service
 
 ```go
 import (
-        "github.com/asim/nitro"
-        "github.com/asim/nitro-plugins/server/grpc"
+        "github.com/go-iot-platform/go-micro"
+        "github.com/go-iot-platform/micro-plugins/server/grpc"
 )
 
 func main() {

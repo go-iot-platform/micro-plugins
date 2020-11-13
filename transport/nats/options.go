@@ -3,7 +3,7 @@ package nats
 import (
 	"context"
 
-	"github.com/asim/nitro/v3/transport"
+	"github.com/go-iot-platform/go-micro/transport"
 	"github.com/nats-io/nats.go"
 )
 

@@ -16,10 +16,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/google/uuid"
 	"github.com/hashicorp/memberlist"
-	log "github.com/asim/nitro/v3/logger"
-	"github.com/asim/nitro/v3/registry"
-	regutil "github.com/asim/nitro/v3/util/registry"
-	pb "github.com/asim/nitro-plugins/registry/gossip/v3/proto"
+	log "github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/registry"
+	regutil "github.com/go-iot-platform/go-micro/util/registry"
+	pb "github.com/go-iot-platform/micro-plugins/registry/gossip/proto"
 	"github.com/mitchellh/hashstructure"
 )
 

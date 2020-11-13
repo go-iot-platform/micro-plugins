@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/hashicorp/consul/api"
-	"github.com/asim/nitro/v3/config/source"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 type addressKey struct{}

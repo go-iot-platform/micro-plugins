@@ -1,6 +1,6 @@
 package client
 
-import "github.com/asim/nitro-plugins/registry/kubernetes/v3/client/watch"
+import "github.com/go-iot-platform/micro-plugins/registry/kubernetes/client/watch"
 
 // Kubernetes ...
 type Kubernetes interface {

@@ -5,12 +5,12 @@ import (
 	"net"
 	"testing"
 
-	"github.com/asim/nitro/v3/client"
-	"github.com/asim/nitro/v3/errors"
-	"github.com/asim/nitro/v3/registry"
-	"github.com/asim/nitro/v3/registry/memory"
-	"github.com/asim/nitro/v3/router"
-	regRouter "github.com/asim/nitro/v3/router/registry"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry/memory"
+	"github.com/go-iot-platform/go-micro/router"
+	regRouter "github.com/go-iot-platform/go-micro/router/registry"
 	pgrpc "google.golang.org/grpc"
 	pb "google.golang.org/grpc/examples/helloworld/helloworld"
 )

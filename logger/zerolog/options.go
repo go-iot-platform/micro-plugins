@@ -3,7 +3,7 @@ package zerolog
 import (
 	"github.com/rs/zerolog"
 
-	"github.com/asim/nitro/v3/logger"
+	"github.com/go-iot-platform/go-micro/logger"
 )
 
 type Options struct {

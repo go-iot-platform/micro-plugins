@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asim/nitro/v3/auth"
-	"github.com/asim/nitro-plugins/auth/jwt/v3/token"
-	"github.com/asim/nitro-plugins/auth/jwt/v3/token/jwt"
+	"github.com/go-iot-platform/go-micro/auth"
+	"github.com/go-iot-platform/micro-plugins/auth/jwt/token"
+	"github.com/go-iot-platform/micro-plugins/auth/jwt/token/jwt"
 )
 
 // NewAuth returns a new instance of the Auth service

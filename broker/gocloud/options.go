@@ -3,7 +3,7 @@ package gocloud
 import (
 	"context"
 
-	"github.com/asim/nitro/v3/broker"
+	"github.com/go-iot-platform/go-micro/broker"
 	"gocloud.dev/gcp"
 )
 

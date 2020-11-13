@@ -14,8 +14,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/asim/nitro/v3/logger"
-	"github.com/asim/nitro/v3/server"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 var (

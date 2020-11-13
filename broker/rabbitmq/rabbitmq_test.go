@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	broker "github.com/asim/nitro/v3/broker"
-	server "github.com/asim/nitro/v3/server"
-	"github.com/asim/nitro/v3/server/mucp"
-	rabbitmq "github.com/asim/nitro-plugins/broker/rabbitmq/v3"
+	broker "github.com/go-iot-platform/go-micro/broker"
+	server "github.com/go-iot-platform/go-micro/server"
+	"github.com/go-iot-platform/go-micro/server/mucp"
+	rabbitmq "github.com/go-iot-platform/micro-plugins/broker/rabbitmq"
 )
 
 type Example struct{}

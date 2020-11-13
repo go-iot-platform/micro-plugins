@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/go-redis/redis/v7"
-	log "github.com/asim/nitro/v3/logger"
-	"github.com/asim/nitro/v3/store"
+	log "github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/store"
 )
 
 type rkv struct {

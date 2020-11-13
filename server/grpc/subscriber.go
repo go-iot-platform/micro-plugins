@@ -7,12 +7,12 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/asim/nitro/v3/broker"
-	"github.com/asim/nitro/v3/errors"
-	"github.com/asim/nitro/v3/logger"
-	"github.com/asim/nitro/v3/metadata"
-	"github.com/asim/nitro/v3/registry"
-	"github.com/asim/nitro/v3/server"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/metadata"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 const (

@@ -8,8 +8,8 @@ import (
 
 	"github.com/hashicorp/consul/api"
 	"github.com/hashicorp/consul/api/watch"
-	"github.com/asim/nitro/v3/registry"
-	regutil "github.com/asim/nitro/v3/util/registry"
+	"github.com/go-iot-platform/go-micro/registry"
+	regutil "github.com/go-iot-platform/go-micro/util/registry"
 )
 
 type consulWatcher struct {

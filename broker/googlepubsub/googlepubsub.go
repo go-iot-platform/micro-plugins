@@ -8,8 +8,8 @@ import (
 
 	"cloud.google.com/go/pubsub"
 	"github.com/google/uuid"
-	"github.com/asim/nitro/v3/broker"
-	log "github.com/asim/nitro/v3/logger"
+	"github.com/go-iot-platform/go-micro/broker"
+	log "github.com/go-iot-platform/go-micro/logger"
 	"google.golang.org/api/option"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

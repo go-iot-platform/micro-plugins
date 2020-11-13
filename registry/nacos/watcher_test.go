@@ -6,8 +6,8 @@ import (
 
 	"github.com/nacos-group/nacos-sdk-go/vo"
 
-	"github.com/asim/nitro/v3/registry"
-	nacosMock "github.com/asim/nitro-plugins/registry/nacos/v3/mock"
+	"github.com/go-iot-platform/go-micro/registry"
+	nacosMock "github.com/go-iot-platform/micro-plugins/registry/nacos/mock"
 	"github.com/nacos-group/nacos-sdk-go/model"
 	"github.com/stretchr/testify/mock"
 

@@ -1,11 +1,11 @@
-module github.com/asim/nitro-plugins/registry/zookeeper/v3
+module github.com/go-iot-platform/micro-plugins/registry/zookeeper
 
 go 1.15
 
 replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
 
 require (
-	github.com/asim/nitro/v3 v3.3.0
+	github.com/go-iot-platform/go-micro v0.0.0-20201113111737-6edce0effdfa
 	github.com/go-zookeeper/zk v1.0.2
 	github.com/google/uuid v1.1.2
 	github.com/mitchellh/hashstructure v1.0.0

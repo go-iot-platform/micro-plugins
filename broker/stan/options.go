@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/asim/nitro/v3/broker"
-	"github.com/asim/nitro/v3/server"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/server"
 	stan "github.com/nats-io/stan.go"
 )
 

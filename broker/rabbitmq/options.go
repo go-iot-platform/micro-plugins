@@ -3,7 +3,7 @@ package rabbitmq
 import (
 	"context"
 
-	"github.com/asim/nitro/v3/broker"
+	"github.com/go-iot-platform/go-micro/broker"
 )
 
 type durableQueueKey struct{}

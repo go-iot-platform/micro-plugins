@@ -6,15 +6,15 @@ import (
 	"crypto/tls"
 	"net"
 
-	"github.com/asim/nitro/v3/transport"
-	maddr "github.com/asim/nitro/v3/util/addr"
-	mnet "github.com/asim/nitro/v3/util/net"
-	mls "github.com/asim/nitro/v3/util/tls"
+	"github.com/go-iot-platform/go-micro/transport"
+	maddr "github.com/go-iot-platform/go-micro/util/addr"
+	mnet "github.com/go-iot-platform/go-micro/util/net"
+	mls "github.com/go-iot-platform/go-micro/util/tls"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	pb "github.com/asim/nitro-plugins/transport/grpc/v3/proto"
+	pb "github.com/go-iot-platform/micro-plugins/transport/grpc/proto"
 )
 
 type grpcTransport struct {
